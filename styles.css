@@ -1,12 +1,16 @@
 body {
 	background-size: cover; /* used to specify the size of background images */
 	background-color: pink;
-	font-family: roboto;
+	font-family: consolas;
 	text-align: center;
 }
 
 h1 {
-	margin: 280px auto;
+	position: absolute;
+	text-align: center;
+	font-size: 3rem;
+	width: 100%;
+	margin: 15% auto;
 }
 
 h2 {
@@ -16,7 +20,7 @@ h2 {
 	transform: translate(-50%, -50%);
 	margin: 0;
 	padding: 0;
-	font-size: 6em;
+	font-size: 10rem;
 	color: transparent;
 	/* text-transform: uppercase; */
 }
@@ -32,7 +36,7 @@ h2 span:nth-child(1) {
 }
 
 h2:hover span:nth-child(1) {
-	transform: translateY(-20px);
+	transform: translateY(-12px);
 }
 
 h2 span:nth-child(2) {
@@ -46,7 +50,7 @@ h2 span:nth-child(2) {
 }
 
 h2:hover span:nth-child(2) {
-	transform: translateY(44px);
+	transform: translateY(56px);
 }
 
 h2 span:nth-child(3) {
@@ -57,12 +61,12 @@ h2 span:nth-child(3) {
 	width: 92%;
 	color: #fff;
 	background-color: #63ccc5;
-	font-size: 0.25em;
+	font-size: 1.85rem;
 	font-weight: 300;
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
-	/* margin-left: 1px; */
+	/*margin-left: 1px;*/
 	/* transition: 0.2s; */
 }
 
